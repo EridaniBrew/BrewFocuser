@@ -1,0 +1,23 @@
+
+Update ACP; why is FWHM 3500?
+
+Test Robofocus Server program.
+
+Test Robofocus Server ASCOM driver.
+
+Test EasyFocus.dll - 
+  23 firmware? 
+  issues with 01# versus FF#?
+
+
+Install Robofocus Basic on Thor
+Install Serial Monitor on Thor
+
+Manual run to 7530# (30000)
+  hangs with red light on, does not see commands.
+Manual run to 0, 
+  hangs green light, does not see commands
+
+Run toward target position (:SN7000#:fg#), then abort move (:FQ#:GP#).
+  prints cur pos, hangs. Buttons fail, commands not received. :fq#:xs#
+
